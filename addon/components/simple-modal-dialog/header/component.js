@@ -4,7 +4,7 @@ import layout from './template';
 const { Component } = Ember;
 
 export default Component.extend(CancelModalMixin, {
-  classNames: [ 'modal-header' ],
+  classNames: [ 'SMD-header' ],
   layout: layout,
   label: ""
 });

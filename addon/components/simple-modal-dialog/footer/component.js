@@ -5,6 +5,6 @@ import layout from './template';
 const { Component } = Ember;
 
 export default Component.extend(CancelModalMixin, AcknowledgeModalMixin, {
-  classNames: [ 'modal-footer' ],
+  classNames: [ 'SMD-footer' ],
   layout: layout
 });

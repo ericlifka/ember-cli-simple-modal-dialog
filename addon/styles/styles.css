@@ -1,4 +1,4 @@
-.simple-modal-dialog {
+.SMD-simple-modal-dialog {
   position: fixed;
   left: 0;
   right: 0;
@@ -25,4 +25,16 @@
 .SMD-content {
   width: 200px;
   height: 200px;
+}
+
+.SMD-header {
+
+}
+
+.SMD-footer {
+
+}
+
+.SMD-body {
+
 }
