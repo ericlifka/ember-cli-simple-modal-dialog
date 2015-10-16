@@ -19,14 +19,20 @@
 .SMD-modal-positional-wrapper {
   background-color: white;
   cursor: initial;
-  border-radius: 10px;
   box-shadow: 0 0 40px 0 #444;
-  padding: 20px;
 }
 
 .SMD-content {
-  width: 200px;
+  min-width: 400px;
   height: 200px;
+}
+
+.SMD-header,
+.SMD-footer,
+.SMD-body {
+  padding: 20px;
+  font-size: 18px;
+  color: #666;
 }
 
 .SMD-header {
