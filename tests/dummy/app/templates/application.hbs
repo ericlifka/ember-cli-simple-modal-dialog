@@ -1,6 +1,14 @@
 <h2 id="title">Welcome to Ember</h2>
 
-{{simple-modal-dialog}}
+{{#simple-modal-dialog}}
+  {{#simple-modal-dialog.header}}
+    Test Header
+  {{/simple-modal-dialog.header}}
+  {{#simple-modal-dialog.body}}
+    Test Body
+  {{/simple-modal-dialog.body}}
+  {{simple-modal-dialog.footer}}
+{{/simple-modal-dialog}}
 
 {{outlet}}
 
