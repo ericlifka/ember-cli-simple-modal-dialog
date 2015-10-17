@@ -24,19 +24,13 @@
 
 .SMD-content {
   min-width: 400px;
-  height: 200px;
-}
-
-.SMD-header,
-.SMD-footer,
-.SMD-body {
-  padding: 20px;
-  font-size: 18px;
-  color: #666;
+  font-family: "Helvetica Neue", Ariel, sans-serif;
 }
 
 .SMD-header {
-
+  padding: 20px;
+  font-size: 18px;
+  color: #666;
 }
 
 .SMD-footer {
@@ -44,5 +38,7 @@
 }
 
 .SMD-body {
-
+  padding: 20px;
+  font-size: 14px;
+  color: #666;
 }
