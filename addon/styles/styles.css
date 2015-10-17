@@ -30,15 +30,16 @@
 .SMD-header {
   padding: 20px;
   font-size: 18px;
-  color: #666;
-}
-
-.SMD-footer {
-
+  background-color: #604f66;
+  color: #eee0eb;
 }
 
 .SMD-body {
   padding: 20px;
   font-size: 14px;
-  color: #666;
+  color: #604f66;
+}
+
+.SMD-footer {
+
 }
