@@ -1,13 +1,15 @@
 <h2 id="title">Welcome to Ember</h2>
 
 {{#simple-modal-dialog}}
-  {{#simple-modal-dialog.header}}
+  {{#simple-modal-dialog.header cancelDialog=(action "closeSMD")}}
     Test Header
   {{/simple-modal-dialog.header}}
   {{#simple-modal-dialog.body}}
     Test Body
   {{/simple-modal-dialog.body}}
-  {{simple-modal-dialog.footer}}
+  {{simple-modal-dialog.footer
+    acknowledgeDialog=(action "closeSMD")
+    cancelDialog=(action "closeSMD")}}
 {{/simple-modal-dialog}}
 
 {{outlet}}
