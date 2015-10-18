@@ -1,17 +1,18 @@
-<h2 id="title">Welcome to Ember</h2>
+<h2 id="title">SMD Test</h2>
+<button type="button" {{action (action "toggleSMD")}}>Open Test Dialog</button>
 
-{{#simple-modal-dialog}}
-  {{#simple-modal-dialog.header cancelDialog=(action "closeSMD")}}
-    Test Header
-  {{/simple-modal-dialog.header}}
-  {{#simple-modal-dialog.body}}
-    Test Body
-  {{/simple-modal-dialog.body}}
-  {{simple-modal-dialog.footer
+{{#if SMDVisible}}
+  {{#simple-modal-dialog}}
+    {{#simple-modal-dialog.header cancelDialog=(action "closeSMD")}}
+        Test Header
+    {{/simple-modal-dialog.header}}
+    {{#simple-modal-dialog.body}}
+        Test Body
+    {{/simple-modal-dialog.body}}
+    {{simple-modal-dialog.footer
     acknowledgeDialog=(action "closeSMD")
     cancelDialog=(action "closeSMD")}}
-{{/simple-modal-dialog}}
+  {{/simple-modal-dialog}}
+{{/if}}
 
 {{outlet}}
-
-<span>HIYA</span>

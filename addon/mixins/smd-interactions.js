@@ -14,7 +14,7 @@ export default Mixin.create({
     },
 
     toggleSMD() {
-      this.togglleProperty('SMDVisible');
+      this.toggleProperty('SMDVisible');
     }
   }
 });
