@@ -28,10 +28,18 @@
 }
 
 .SMD-header {
-  padding: 20px;
+  line-height: 60px;
   font-size: 18px;
   background-color: #604f66;
   color: #eee0eb;
+  display: flex;
+  flex-direction: row;
+}
+.SMD-header .title-text {
+  flex-grow: 1;
+}
+.SMD-header .dismiss {
+
 }
 
 .SMD-body {
