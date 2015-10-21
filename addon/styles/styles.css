@@ -39,7 +39,11 @@
   flex-grow: 1;
 }
 .SMD-header .dismiss {
-
+  width: 60px;
+  height: 60px;
+  background-color: rgba(0, 0, 0, 0.0);
+  border: none;
+  cursor: pointer;
 }
 
 .SMD-body {
