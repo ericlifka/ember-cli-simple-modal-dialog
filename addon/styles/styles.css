@@ -45,6 +45,24 @@
   border: none;
   cursor: pointer;
 }
+.SMD-header .dismiss .icon.close {
+  display: inline-block;
+}
+.SMD-header .dismiss .icon.close:before,
+.SMD-header .dismiss .icon.close:after {
+  content: " ";
+  display: block;
+  width: 50px;
+  height: 6px;
+  background-color: #000;
+  border-radius: 3px;
+}
+.SMD-header .dismiss .icon.close:before {
+  transform: rotate(45deg) translate(3px);
+}
+.SMD-header .dismiss .icon.close:after {
+  transform: rotate(-45deg) translate(3px);
+}
 
 .SMD-body {
   padding: 20px;
