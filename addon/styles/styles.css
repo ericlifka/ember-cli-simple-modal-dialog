@@ -47,6 +47,7 @@
 }
 .SMD-header .dismiss .icon.close {
   display: inline-block;
+  transform: translate(-4px);
 }
 .SMD-header .dismiss .icon.close:before,
 .SMD-header .dismiss .icon.close:after {
@@ -58,10 +59,10 @@
   border-radius: 3px;
 }
 .SMD-header .dismiss .icon.close:before {
-  transform: rotate(45deg) translate(3px);
+  transform: rotate(45deg) translate(4px);
 }
 .SMD-header .dismiss .icon.close:after {
-  transform: rotate(-45deg) translate(3px);
+  transform: rotate(-45deg) translate(4px);
 }
 
 .SMD-body {
