@@ -53,6 +53,7 @@
 .SMD-header .dismiss .icon.close {
   display: inline-block;
   transform: translate(-4px);
+  margin-top: 3px;
 }
 .SMD-header .dismiss .icon.close:before,
 .SMD-header .dismiss .icon.close:after {
