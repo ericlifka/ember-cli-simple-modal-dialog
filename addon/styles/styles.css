@@ -47,6 +47,9 @@
   border: none;
   cursor: pointer;
 }
+.SMD-header .dismiss:hover {
+  background-color: #74617b;
+}
 .SMD-header .dismiss .icon.close {
   display: inline-block;
   transform: translate(-4px);
@@ -57,8 +60,12 @@
   display: block;
   width: 40px;
   height: 6px;
-  background-color: #000;
+  background-color: #3e3641;
   border-radius: 3px;
+}
+.SMD-header .dismiss:hover .icon.close:before,
+.SMD-header .dismiss:hover .icon.close:after {
+  background-color: #353137;
 }
 .SMD-header .dismiss .icon.close:before {
   transform: rotate(45deg) translate(4px);
