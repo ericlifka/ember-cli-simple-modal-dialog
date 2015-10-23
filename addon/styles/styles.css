@@ -38,6 +38,7 @@
 }
 .SMD-header .title-text {
   flex-grow: 1;
+  padding: 0 20px;
 }
 .SMD-header .dismiss {
   width: 50px;
