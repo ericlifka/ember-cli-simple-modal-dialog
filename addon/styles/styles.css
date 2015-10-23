@@ -27,15 +27,22 @@
   font-family: "Helvetica Neue", Ariel, sans-serif;
 }
 
-.SMD-header {
-  line-height: 60px;
+.SMD-header, .SMD-footer {
+  display: flex;
+  height: 60px;
   font-size: 18px;
+}
+.SMD-header {
+  flex-direction: row;
   background-color: #604f66;
   color: #eee0eb;
-  display: flex;
-  flex-direction: row;
   align-items: center;
 }
+.SMD-footer {
+  flex-direction: row-reverse;
+  color: #604f66;
+}
+
 .SMD-header .title-text {
   flex-grow: 1;
   padding: 0 20px;
@@ -83,7 +90,6 @@
   color: #604f66;
 }
 
-.SMD-footer {
-  display: flex;
-  flex-direction: row-reverse;
+.SMD-button {
+
 }
