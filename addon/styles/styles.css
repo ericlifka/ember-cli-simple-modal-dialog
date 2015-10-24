@@ -5,6 +5,9 @@
   top: 0;
   bottom: 0;
 }
+.SMD-simple-modal-dialog.clickable {
+  cursor: pointer;
+}
 
 .SMD-screen-overlay {
   width: 100%;
@@ -13,9 +16,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-}
-.SMD-screen-overlay.clickable {
-  cursor: pointer;
 }
 
 .SMD-modal-positional-wrapper {

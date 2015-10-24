@@ -5,6 +5,7 @@ const { Component } = Ember;
 
 export default Component.extend(CancelModalMixin, {
   classNames: [ 'SMD-simple-modal-dialog' ],
+  classNameBindings: [ 'showDismiss:clickable' ],
   layout: layout,
 
   click(event) {
