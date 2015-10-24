@@ -66,12 +66,12 @@
   display: block;
   width: 40px;
   height: 6px;
-  background-color: #3e3641;
+  background-color: #3b3041;
   border-radius: 3px;
 }
 .SMD-header .dismiss:hover .icon.close:before,
 .SMD-header .dismiss:hover .icon.close:after {
-  background-color: #353137;
+  background-color: #4a3c50;
 }
 .SMD-header .dismiss .icon.close:before {
   transform: rotate(45deg) translate(4px);
