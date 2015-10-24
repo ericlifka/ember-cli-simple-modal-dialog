@@ -85,6 +85,9 @@
   color: #604f66;
 }
 
+.SMD-footer .SMD-button {
+  padding: 0 16px;
+}
 .SMD-footer .dismiss {
   order: 2;
 }
