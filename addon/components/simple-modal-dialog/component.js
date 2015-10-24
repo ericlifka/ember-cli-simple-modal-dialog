@@ -7,11 +7,10 @@ export default Component.extend(CancelModalMixin, {
   classNames: [ 'SMD-simple-modal-dialog' ],
   layout: layout,
 
-  actions: {
-    clickToCancel() {
-      if (this.get('showDismiss')) {
-        this.send('dismiss');
-      }
+  click(event) {
+    const elem = $(event.target);
+    if (!elem.parents('.SMD-content').length && this.get('showDismiss')) {
+      this.send('dismiss');
     }
   }
 });
