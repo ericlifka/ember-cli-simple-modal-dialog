@@ -2,7 +2,7 @@
 <button type="button" {{action (action "toggleSMD")}}>Open Test Dialog</button>
 
 {{#if SMDVisible}}
-  {{#simple-modal-dialog}}
+  {{#simple-modal-dialog cancelDialog=(action "closeSMD")}}
     {{#simple-modal-dialog.header cancelDialog=(action "closeSMD")}}
         Test Header
     {{/simple-modal-dialog.header}}
@@ -10,8 +10,8 @@
         Test Body
     {{/simple-modal-dialog.body}}
     {{simple-modal-dialog.footer
-    acknowledgeDialog=(action "closeSMD")
-    cancelDialog=(action "closeSMD")}}
+      acknowledgeDialog=(action "closeSMD")
+      cancelDialog=(action "closeSMD")}}
   {{/simple-modal-dialog}}
 {{/if}}
 
