@@ -29,6 +29,7 @@
 
 .SMD-header, .SMD-footer {
   display: flex;
+  align-items: center;
   height: 60px;
   font-size: 18px;
 }
@@ -36,7 +37,6 @@
   flex-direction: row;
   background-color: #604f66;
   color: #eee0eb;
-  align-items: center;
 }
 .SMD-footer {
   flex-direction: row-reverse;
@@ -49,12 +49,7 @@
 }
 .SMD-header .dismiss {
   width: 50px;
-  height: 50px;
-  margin-right: 5px;
-  margin-left: 5px;
   background-color: rgba(0, 0, 0, 0.0);
-  border: none;
-  cursor: pointer;
 }
 .SMD-header .dismiss:hover {
   background-color: #74617b;
@@ -91,5 +86,9 @@
 }
 
 .SMD-button {
-
+  height: 50px;
+  margin-right: 5px;
+  margin-left: 5px;
+  border: none;
+  cursor: pointer;
 }
