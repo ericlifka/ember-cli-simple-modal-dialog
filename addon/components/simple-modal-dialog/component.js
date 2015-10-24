@@ -9,9 +9,12 @@ export default Component.extend(CancelModalMixin, {
   layout: layout,
 
   click(event) {
-    const elem = $(event.target);
-    if (!elem.parents('.SMD-content').length && this.get('showDismiss')) {
+    if (this.get('showDismiss') && this.isClickOutsideModal(event.target)) {
       this.send('dismiss');
     }
+  },
+
+  isClickOutsideModal(clickTarget) {
+    return $(clickTarget).parents('.SMD-content').length === 0;
   }
 });
