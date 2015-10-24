@@ -10,6 +10,8 @@
         Test Body
     {{/simple-modal-dialog.body}}
     {{simple-modal-dialog.footer
+      cancelText="Test Cancel"
+      acknowledgeText="Test Okay"
       acknowledgeDialog=(action "closeSMD")
       cancelDialog=(action "closeSMD")}}
   {{/simple-modal-dialog}}

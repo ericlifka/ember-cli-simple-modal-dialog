@@ -6,5 +6,7 @@ const { Component } = Ember;
 
 export default Component.extend(CancelModalMixin, AcknowledgeModalMixin, {
   classNames: [ 'SMD-footer' ],
-  layout: layout
+  layout: layout,
+  cancelText: 'Cancel',
+  acknowledgeText: 'Okay'
 });
